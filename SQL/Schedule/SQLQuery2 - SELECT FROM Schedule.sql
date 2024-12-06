@@ -14,4 +14,5 @@ WHERE
 		[group]		= group_id
 AND		discipline	= discipline_id
 AND		teacher		= teacher_id
+AND		[date]		= '2024-10-25'
 ;

@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Schedule">
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Functions">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="DESKTOP-9OAVHI6\SQLEXPRESS:DESKTOP-9OAVHI6\golub">
-          <Created>2024-11-29T20:44:47.3575304+03:00</Created>
+          <Created>2024-12-04T19:40:37.1749606+03:00</Created>
           <Type>SQL</Type>
           <Server>DESKTOP-9OAVHI6\SQLEXPRESS</Server>
           <UserName />
@@ -22,47 +22,53 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="SQLQuery0 - ALTER Groups.sql">
+        <FileNode Name="SQLQuery0 - CHECK .sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-9OAVHI6\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-9OAVHI6\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery0 - ALTER Groups.sql</FullPath>
+          <FullPath>SQLQuery0 - CHECK .sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery0 - Check procedures.sql">
+        <FileNode Name="SQLQuery0 - CHECK Function.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-9OAVHI6\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-9OAVHI6\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery0 - Check procedures.sql</FullPath>
+          <FullPath>SQLQuery0 - CHECK Function.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1 - INSERT Schedule.sql">
+        <FileNode Name="SQLQuery1 - CountLessonsForGroup.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-9OAVHI6\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-9OAVHI6\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1 - INSERT Schedule.sql</FullPath>
+          <FullPath>SQLQuery1 - CountLessonsForGroup.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery2 - SELECT FROM Schedule.sql">
+        <FileNode Name="SQLQuery8 - GetLastMonOfApril.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-9OAVHI6\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-9OAVHI6\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery2 - SELECT FROM Schedule.sql</FullPath>
+          <FullPath>SQLQuery8 - GetLastMonOfApril.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery3 - CREATE PROCEDURE - Schedule for Groups.sql">
+        <FileNode Name="SQLQuery8 - GetLastMonOfJuly.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-9OAVHI6\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-9OAVHI6\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery3 - CREATE PROCEDURE - Schedule for Groups.sql</FullPath>
+          <FullPath>SQLQuery8 - GetLastMonOfJuly.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery4 - DELETE FROM Schedule.sql">
+        <FileNode Name="SQLQuery8 - GetLastMonOfYear.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-9OAVHI6\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-9OAVHI6\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery4 - DELETE FROM Schedule.sql</FullPath>
+          <FullPath>SQLQuery8 - GetLastMonOfYear.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery5 - StaacionarToSchedule Procedure.sql">
+        <FileNode Name="SQLQuery8 - MayHoliDaysFor.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-9OAVHI6\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-9OAVHI6\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery5 - StaacionarToSchedule Procedure.sql</FullPath>
+          <FullPath>SQLQuery8 - MayHoliDaysFor.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery8 - NewYearDays PROCEDURE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-9OAVHI6\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-9OAVHI6\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery8 - NewYearDays PROCEDURE.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
