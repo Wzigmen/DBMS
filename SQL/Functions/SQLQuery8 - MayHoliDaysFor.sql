@@ -4,7 +4,7 @@ GO
 ALTER PROCEDURE sp_MayHoliDaysFor @year AS INT
 AS
 BEGIN
-	DECLARE @start_date AS DATE		= dbo.GetLastMonOfApril(2024);
+	DECLARE @start_date AS DATE		= dbo.GetLastMonOfApril(@year);
 	DECLARE @date		AS DATE		= @start_date;
 	DECLARE @holiday    AS SMALLINT = (SELECT holiday_id FROM Holidays WHERE holiday_name LIKE N'%Май%');
 
