@@ -12,7 +12,9 @@ SET DATEFIRST 1;
 
 --DELETE FROM DaysOFF;
 
---EXEC sp_SetDaysOffFor 2025;
+EXEC sp_SetDaysOffFor 2025;
+PRINT(dbo.GetEasterDate(2025));
+PRINT(DATENAME(WEEKDAY, dbo.GetEasterDate(2025)));
 
 SELECT 
 	[date],
